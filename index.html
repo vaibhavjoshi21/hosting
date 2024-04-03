@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>World's Biggest University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>Our Courses</h1>
+          </section>
+
+          <!----course---->
+          <section class="course">
+            <h1>Course We Offer</h1>
+            <p>We offer some few courses like MCA, Btech in Computer Science Engineering and btech in Electronic and Communication Engineering.</p>
+        
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermedia</h3>
+                    <p> Intermediate or bridging courses offered by colleges can vary significantly depending on the specific needs of the students and the structure of the programs. These courses are generally designed to help students bridge the gap between their previous education and the requirements of the desired program.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Certainly! Degree programs offered by colleges can vary widely based on the institution's focus, accreditation, and location. This degree is most valuable and recognized for students.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduationn</h3>
+                    <p>Postgraduate programs offered by colleges typically include Masters degrees and Doctoral degrees.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!----facilities---->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>There are some facilities that our university provides like Academic Buildings, Library, Sports Facilities, Cafeteria and Dinning Halls, Health Center etc.</p>
+        
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>The campus is expected to have a library with a vast collection of books, journals, research papers, and other academic resources to support the learning and research needs of students and faculty.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>The campus is expected to have sports facilities such as playgrounds, courts for basketball, volleyball, and badminton, as well as indoor sports facilities for table tennis and chess. These facilities promote physical fitness and extracurricular activities among students</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty And Healthy Food</h3>
+                    <p>cafeteria and dining halls where students and faculty can enjoy meals and refreshments. These spaces serve as social hubs where members of the campus community can interact and relax.</p>
+                </div>
+            </div>
+        </section> 
+
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>You can contact us on the contact page.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>
