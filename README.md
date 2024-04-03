@@ -1,1 +1,1 @@
-# hosting
+# hostin
